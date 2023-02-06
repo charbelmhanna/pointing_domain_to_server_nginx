@@ -13,7 +13,7 @@ When you point your domain to the server, you need to follow those steps in orde
 3. nano domainname.com
 
 4. if vuejs add this 
-...
+```
 server {
     listen  80;
     listen [::]:80;
@@ -30,7 +30,7 @@ server {
     error_log  /var/log/nginx/vue-app-error.log;
     access_log /var/log/nginx/vue-app-access.log;
 }
-...
+```
 5.save 
 
 6. create a simlink 
