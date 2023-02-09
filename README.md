@@ -24,7 +24,7 @@ server {
     index   index.html index.htm;
     # Always serve index.html for any request
     location / {
-        root {{app_root}}/dist;
+        root /home/domainname.com/dist;
         try_files $uri /index.html;
     }
     error_log  /var/log/nginx/vue-app-error.log;
